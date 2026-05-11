@@ -6,13 +6,19 @@
 
 ![Bucket S3](./images/s3-cloudfront/bucket-s3.png)
 
+---
+
 #### 1.1.1 Contenido del bucket (index.html)
 
 ![Resume Web](./images/s3-cloudfront/contenido-s3.png)
 
+---
+
 ### 1.2 Creación de la distribución en CloudFront
 
 ![CloudFront](./images/s3-cloudfront/cloudfront-distribucion.png)
+
+---
 
 ### 1.3 Contenido de la Web
 
@@ -24,15 +30,21 @@
 
 ![Users Pool](./images/cognito/cognito-pool-usuarios.png)
 
+---
+
 ### 2.2 Registrar usuario en Cognito
 
 **Configuración**
 
 ![Usuario en Cognito](./images/cognito/cognito-usuario-creado.png)
 
+---
+
 **Feedback**
 
 ![Creación exitosa](./images/cognito/cognito-feedback-creacion-usuario.png)
+
+---
 
 ### 2.3 Redirección a la web creada tras realizar el log-in
 
@@ -40,11 +52,10 @@
 
 ![](./images/cognito/cognito-configuracion-url-redireccion.png)
 
+---
+
 **Funcionamiento de la redirección**
 
-<video src="./images/cognito/cognito-redireccion-web.mov" controls width="100%"></video>
+![Vídeo Cognito](https://github.com/user-attachments/assets/1430765e-16ff-4e53-99f6-12a712b50362)
 
-
-
-
-![](.)
+El vídeo completo está en `/images/cognito/cognito-redireccion-web.mp4`
