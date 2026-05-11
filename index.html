@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum - AWS Cloud Practitioner</title>
+    <style>
+        :root {
+            --aws-orange: #ff9900;
+            --aws-blue: #232f3e;
+            --light-grey: #f2f2f2;
+            --text-dark: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--light-grey);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: var(--aws-blue);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 5px solid var(--aws-orange);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--aws-blue);
+            border-left: 5px solid var(--aws-orange);
+            padding-left: 15px;
+            margin-bottom: 1rem;
+        }
+
+        .experience-item,
+        .edu-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .job-title {
+            font-weight: bold;
+            display: block;
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        ul.skills {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills li {
+            background: var(--aws-blue);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        .contact-info {
+            margin-top: 1rem;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            border: 1px solid white;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .contact-info a:hover {
+            background: var(--aws-orange);
+            border-color: var(--aws-orange);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cloud Explorer</h1>
+        <p>Estudiante de Ingeniería / Entusiasta de Cloud Computing</p>
+        <div class="contact-info">
+            <a href="mailto:tuemail@ejemplo.com">Email</a>
+            <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/tu-usuario" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy un estudiante apasionado por la tecnología y la infraestructura en la nube. Actualmente estoy
+                participando en los talleres de Microservicios en AWS con Next Digital y la UPM, donde estoy aprendiendo
+                a desplegar soluciones escalables y seguras.</p>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiencia Destacada</h2>
+            <div class="experience-item">
+                <span class="job-title">Participante en AWS Workshop - Next Digital</span>
+                <span class="date">Octubre 2023 - Presente</span>
+                <p>Aprendizaje práctico sobre servicios core de AWS: S3, EC2, CloudFront, Cognito y SNS. Despliegue de
+                    arquitecturas de microservicios y gestión de identidades.</p>
+            </div>
+            <div class="experience-item">
+                <span class="job-title">Proyectos Personales en GitHub</span>
+                <span class="date">2022 - 2023</span>
+                <p>Desarrollo de aplicaciones web básicas utilizando HTML, CSS y JavaScript, con integración de
+                    automatizaciones sencillas.</p>
+            </div>
+        </section>
+
+        <section id="educacion">
+            <h2>Educación</h2>
+            <div class="edu-item">
+                <span class="job-title">Grado en Ingeniería de Sistemas</span>
+                <span class="date">Universidad Politécnica de Madrid (UPM)</span>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <ul class="skills">
+                <li>AWS Cloud (S3, CloudFront)</li>
+                <li>Docker & Containers</li>
+                <li>Git & GitHub</li>
+                <li>Desarrollo Web (HTML/CSS)</li>
+                <li>Configuración de Redes</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 - Currículum Desplegado en AWS CloudFront</p>
+    </footer>
+
+</body>
+
+</html>
